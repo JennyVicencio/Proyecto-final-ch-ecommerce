@@ -5,9 +5,9 @@ export const CartWidget = () => {
 
    return (
       <div className='cart-button'>
-         <Button variant="primary" onClick={() => alert("¡Carrito vacío 🙍🏼‍♀️!")}>
+         <Button variant="dark" onClick={() => alert("Carrito en construcción. 🙍🏼‍♀️")} href='#'>
             <BsFillCartFill className='me-2' />
-            <Badge bg="secondary">0</Badge>
+            <Badge bg="tertiary">0</Badge>
          </Button>
       </div>
    )

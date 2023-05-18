@@ -1,8 +1,8 @@
-/* make the customizations */
+/* customizations */
 $white:    #fff;
 $gray-100: #f8f9fa;
 $gray-200: #e9ecef;
-$gray-300: #dee2e6;
+$gray-300: #dfe0df;
 $gray-400: #ced4da;
 $gray-500: #adb5bd;
 $gray-600: #6c757d;
@@ -11,19 +11,17 @@ $gray-800: #343a40;
 $gray-900: #212529;
 $black:    #000;
 
-$light-brown: #714E2A;
-$dark-brown: #37180E;
-$blue:    #0d6efd ;
-$pink:    #d63384 ;
-$red:     #dc3545 ;
+$dark-brown: #FF8352;
+$light-brown: #B07661;
+$cyan:    #00B1FF ;
+$red:     #da182b ;
 $orange:  #fd7e14 ;
 $yellow:  #ffc107 ;
 $green:   #198754 ;
-$cyan:    #0dcaf0 ;
 
 $colors: (
-  "blue":       $blue,
-  "pink":       $pink,
+  "dark-brown": $dark-brown,
+  "light-brown":  $light-brown,
   "red":        $red,
   "orange":     $orange,
   "yellow":     $yellow,
@@ -36,18 +34,20 @@ $colors: (
 );
 
 // scss-docs-start theme-color-variables
-$primary:       $dark-brown;
-$secondary:     $light-brown;
+$primary:       $light-brown;
+$secondary:     $dark-brown;
+$tertiary:      $cyan;
 $success:       $green;
 $info:          $cyan;
 $warning:       $yellow;
 $danger:        $red;
-$light:         $gray-100;
+$light:         #FFECE5;
 $dark:          $gray-900;
 
 $theme-colors: (
     "primary":    $primary,
     "secondary":  $secondary,
+    "tertiary":   $tertiary,
     "success":    $success,
     "info":       $info,
     "warning":    $warning,
@@ -56,8 +56,8 @@ $theme-colors: (
     "dark":       $dark
 );
 
-$body-bg: $primary;
-$body-color: $white;
+$body-bg: $light;
+$body-color: $black;
 
 $link-color: $secondary;
 $link-decoration:                         underline;
@@ -73,5 +73,8 @@ $headings-font-weight:        700;
 $headings-line-height:        1.2;
 $headings-color:              null;
 
+$btn-font-weight:             700;
+
+
 /* import bootstrap to set changes */
-@import "./../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./../../../node_modules/bootstrap/scss/bootstrap.scss";
