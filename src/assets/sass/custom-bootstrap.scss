@@ -11,8 +11,8 @@ $gray-800: #343a40;
 $gray-900: #212529;
 $black:    #000;
 
-$dark-brown: #FF8352;
-$light-brown: #B07661;
+$coral: #FF8352;
+$light-brown: #AA6957;
 $cyan:    #00B1FF ;
 $red:     #da182b ;
 $orange:  #fd7e14 ;
@@ -20,13 +20,13 @@ $yellow:  #ffc107 ;
 $green:   #198754 ;
 
 $colors: (
-  "dark-brown": $dark-brown,
+  "coral": $coral,
   "light-brown":  $light-brown,
+  "cyan":       $cyan,
   "red":        $red,
   "orange":     $orange,
   "yellow":     $yellow,
   "green":      $green,
-  "cyan":       $cyan,
   "black":      $black,
   "white":      $white,
   "gray":       $gray-600,
@@ -35,7 +35,7 @@ $colors: (
 
 // scss-docs-start theme-color-variables
 $primary:       $light-brown;
-$secondary:     $dark-brown;
+$secondary:     $coral;
 $tertiary:      $cyan;
 $success:       $green;
 $info:          $cyan;
@@ -75,6 +75,15 @@ $headings-color:              null;
 
 $btn-font-weight:             700;
 
+$navbar-toggler-padding-y:          .25rem;
+$navbar-toggler-padding-x:          .25rem;
+$navbar-light-color:                rgba($black, .8);
+$navbar-light-toggler-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-light-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+$navbar-light-toggler-border-color: rgba($black, 0);
+
+$input-bg:                              $white;
+$input-border-color:                    $primary;
+$input-border-width:                    1.5px;
 
 /* import bootstrap to set changes */
 @import "./../../../node_modules/bootstrap/scss/bootstrap.scss";

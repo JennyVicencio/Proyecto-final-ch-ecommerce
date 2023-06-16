@@ -1,14 +1,14 @@
-import Item from '../../components/Item/Item';
+import Item from './Item';
 import { Row } from 'react-bootstrap';
 
 const ItemList = ( {products} ) => {
 
   return (
-    <section>
+    <>
       <Row className='g-4'>
-        { products.map(prod => <Item key={prod.id} {...prod} />) }
+        { products.map(item => <Item key={item.id} {...item} />) }
       </Row>
-    </section>
+    </>
   )
 }
 

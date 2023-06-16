@@ -1,0 +1,17 @@
+
+.btn-clean-all {
+   background-color: var(--bs-white);
+   border-color: var(--bs-dark);
+   color: var(--bs-dark);
+}
+
+.btn-clean-all:hover {
+   background-color: var(--bs-dark);
+   border-color: var(--bs-white);
+   color: var(--bs-white);
+}
+
+.btn-checkout, 
+.btn-order {
+   color: var(--bs-white);
+}

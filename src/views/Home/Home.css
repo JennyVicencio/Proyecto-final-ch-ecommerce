@@ -1,0 +1,30 @@
+.banner-home {
+   position: relative;
+}
+
+.banner-home .banner-bg img {
+   width: 100%;
+}
+
+.banner-home .banner-text {
+   position: absolute;
+   color: var(--bs-white);
+   left: 10%;
+   top: 50%;
+   transform: translateY(-50%);
+   max-width: 50%;
+}
+
+.banner-home .banner-text h1 {
+   border-bottom: 4px solid var(--bs-white);
+   font-weight: 500;
+   font-size: calc(0.25rem + 4vw);
+   margin-bottom: 5%;
+   text-transform: uppercase;
+}
+
+.banner-home .banner-text p {
+   font-size: calc(0.25rem + 2vw);
+   line-height: 1.25;
+   max-width: 500px;
+}

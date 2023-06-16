@@ -1,0 +1,28 @@
+/* Navbar */
+.header {
+   background-color: #fff;
+   color: var(--bs-dark);
+}
+
+.navbar-brand img {
+   height: 80px;
+}
+
+.nav-link {
+   color: #000;
+   font-family: "Lora", serif;
+   font-weight: 700;
+   text-transform: uppercase;
+   text-align: center;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+   background-color: var(--bs-black);
+   color: var(--bs-white)!important;
+}
+
+.navbar-buttons {
+   display: flex;
+   gap: 1rem;
+}

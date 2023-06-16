@@ -1,0 +1,4 @@
+::selection {
+   background: var(--bs-tertiary);
+   color: var(--bs-white);
+}
