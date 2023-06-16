@@ -42,10 +42,10 @@ import { Link, NavLink } from 'react-router-dom';
           </Col>
           <Col lg={12} className='border-top border-color-light'>
             <div className="footer-disclaimer">
-              <div>
+              <div className='cr'>
                 <span>©{currentYear} Coffee & Teas. All Rights Reserved.</span>
               </div>
-              <div>
+              <div className='author'>
                 <span className='me-2'>Creado por Jennyfer Vicencio</span>
                 <a href="https://www.linkedin.com/in/jennyfer-v-arce" target='_blank' rel='noopener noreferrer'>
                   <BsLinkedin className='m-2 fs-2' />
